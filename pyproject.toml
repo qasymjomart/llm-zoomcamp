@@ -17,3 +17,8 @@ dependencies = [
     "streamlit>=1.58.0",
     "toyaikit>=0.0.11",
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
